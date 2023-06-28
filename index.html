@@ -3,8 +3,48 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans+Condensed&family=Lexend+Peta&family=Poppins&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Web Development</title>
   </head>
   <body>
+    <div id="nav">
+  <ul class="navlist">
+    <li id="title" class="navtitles"> Code Camp </li>
+    <li class="navtitles"><a href="#html"> HTML </a></li>
+    <li class="navtitles"><a href="#css"> CSS </a></li>
+    <li class="navtitles"><a href="#js"> JS </a></li>
+    <li class="navtitles"><a href="#quiz"> Quiz </a></li>
+    <li><img src="" height="50px"></li>
+  </ul>
+</div>
+<div class="container">
+  <div class="content" id="htmlcontent">
+    <div class="htmltext">
+      <h3> HTML </h3>
+      <p>Hypertext Markup Language (HTML) makes up the structure of every webpage. HTML uses multiple elements to display content on webpages. Examples of HTML elements are:</p>
+      <ul>
+        <li class="htmlelements">p</li>
+        <li class="htmlelements">h1, h2, h3, h4, h5, h6</li>
+        <li class="htmlelements">img</li>
+        <li class="htmlelements">ul, ol, li</li>
+        <li class="htmlelements">div</li>
+      </ul>
+    </div>
+    <div class="htmlimg"> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" id = "htmllogo"> </div>
+  </div>
+  <div class="content" id="css">
+    <h3> CSS </h3>
+    <p> Cascading Style Sheets (CSS) </p>
+  </div>
+  <div class="content" id="js">
+    <h3> JS </h3>
+    <p>Javascript</p>
+  </div>
+  <div id="quiz" class="content">
+    <h3>Quiz</h3>
+    <form> <label>Which of the following is not a HTML tag? </label> <br> <input type="radio" name="htmlq"> <label> p </label> <br> <input type="radio" name="htmlq"> <label> img </label> <br> <input type="radio" name="htmlq"> <label> div </label> <br> <input type="radio" name="htmlq"> <label> h7 </label> <br> <label>Which of the following is not an absolue unit? </label> <br> <input type="radio" name="cssq"> <label> px </label> <br> <input type="radio" name="cssq"> <label> em </label> <br> <input type="radio" name="cssq"> <label> cm </label> <br> <input type="radio"> <label> pt </label> <br> <label>What does console.log(7 * 5 - 3 * 4) print?</label> <br> <input type="radio" name="jsq"> <label> 23 </label> <br> <input type="radio" name="jsq"> <label> 56 </label> <br> <input type="radio" name="jsq"> <label> 78 </label> <br> <input type="radio" name="jsq"> <label> 128 </label> <br> <input type="submit" id="submitbtn"> </form>
+  </div>
+</div>
     
   </body>
