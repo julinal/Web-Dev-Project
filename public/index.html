@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Fira+Sans+Condensed&family=Lexend+Peta&family=Poppins&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Web Development</title>
+  </head>
+  <body>
+    <div id="nav">
+  <ul class="navList">
+    <li id="title" class="navTitles"> Code Camp </li>
+    <li class="navTitles"><a href="#htmlContainer"> HTML </a></li>
+    <li class="navTitles"><a href="#cssContainer"> CSS </a></li>
+    <li class="navTitles"><a href="#jsContainer"> JS </a></li>
+    <li class="navTitles"><a href="#quizContainer"> Quiz </a></li>
+  </ul>
+</div>
+<div id="htmlContainer">
+  <div class="content" id="htmlContent">
+    <div class="htmlText">
+      <h1> HTML </h1>
+      <p>Hypertext Markup Language (HTML) makes up the structure of every webpage. HTML uses multiple elements to display content on webpages. Examples of HTML elements are:</p>
+      <ul>
+        <li class="htmlElements">p</li>
+        <li class="htmlElements">h1, h2, h3, h4, h5, h6</li>
+        <li class="htmlElements">img</li>
+        <li class="htmlElements">ul, ol, li</li>
+        <li class="htmlElements">div</li>
+      </ul>
+    </div>
+    <div class="htmlImg"> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" id="htmlLogo"> </div>
+  </div>
+  <div class="content" id="cssContainer">
+    <div id="cssText">
+      <h1> CSS </h1>
+      <p> Cascading Style Sheets (CSS) is used to style webpages. With CSS, you can change the color, format, font, etc. of a webpage. CSS uses different properties to style a website. Some examples of different CSS properties are color, background-color, height, width, padding, margin, font-size, border, etc. CSS also allows webpages to have animations. </p>
+    </div>
+    <div id="cssImg">
+      <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" id="css">
+    </div>
+  </div>
+  <div class="content" id="jsContainer">
+    <div id="jsText">
+      <h1> JS </h1>
+      <p>Javascript makes webpages user interactive. Javascript works with Document Object Model (DOM) to manipulate HTML elements and create new elements. DOM uses selectors to select elements using JS. Hover over the Javascript logo to invert the image. </p>
+    </div>
+    <div id="jsImg">
+      <img src="https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png" id="jsLogo">
+    </div>
+  </div>
+  <div class="content" id="quizContainer">
+    <h1 id="quizForm">Quiz</h1>
+    <form=>
+      <label>Which of the following is not a HTML tag? </label>
+      <br>
+      <input type="radio" name="htmlq" value="p">
+      <label> p </label>
+      <br>
+      <input type="radio" name="htmlq" value="img">
+      <label> img </label>
+      <br>
+      <input type="radio" name="htmlq" value="div">
+      <label> div </label>
+      <br> <input type="radio" name="htmlq" value="h7">
+      <label> h7 </label>
+      <br>
+      <label>Which of the following is not an absolue unit? </label>
+      <br>
+      <input type="radio" name="cssq" value="px">
+      <label> px </label>
+      <br>
+      <input type="radio" name="cssq" value="vw">
+      <label> vw </label>
+      <br>
+      <input type="radio" name="cssq" value="cm">
+      <label> cm </label>
+      <br>
+      <input type="radio" name="cssq" value="pt">
+      <label> pt </label>
+      <br>
+      <label>What does console.log(7 * 5 - 3 * 4) print?</label>
+      <br>
+      <input type="radio" name="jsq" value="23">
+      <label> 23 </label>
+      <br>
+      <input type="radio" name="jsq" value="56">
+      <label> 56 </label>
+      <br>
+      <input type="radio" name="jsq" value="78">
+      <label> 78 </label>
+      <br>
+      <input type="radio" name="jsq" value="128">
+      <label> 128 </label>
+      <br>
+      <input type="submit" id="submitbtn">
+      </form>
+  </div>
+  <div>
+    <p id="results"></p>
+  </div>
+</div>
+    
+  </body>
