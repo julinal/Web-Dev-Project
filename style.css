@@ -1,26 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 body {
   margin: 0;
   background-color: #021427;
-  color: #F8F8FF ;
+  color: #f8f8ff;
 }
 #nav {
   position: sticky;
   top: 0;
-  background-color: #021427;
+  background-color: #020318;
   font-family: "Lexend Peta", sans-serif;
   font-size: 25px;
-  color: #F8F8FF ;
-  padding: 20px;
-  border-bottom: #F8F8FF 1px solid; 
+  color: #f8f8ff;
+  padding: 10px;
+  border-bottom: #f8f8ff 1px solid;
+  z-index: 100;
 }
-.navlist {
+.navList {
   list-style: none;
   overflow: hidden;
   padding: 0;
   margin: 0;
   top: 0;
 }
-.navtitles {
+.navTitles {
   float: left;
   padding-right: 7%;
 }
@@ -29,12 +34,12 @@ a {
   display: block;
   text-decoration: none;
   font-size: 18px;
-  color: #F8F8FF ;
+  color: #f8f8ff;
   text-align: center;
   padding: 5px 10px 0px 10px;
 }
 a:hover {
-  color: #F8F8FF ;
+  color: #f8f8ff;
   font-weight: bold;
   border: #7182ab 1px solid;
   border-radius: 10px;
@@ -44,33 +49,68 @@ a:hover {
   background-color: #021427;
   height: 100vh;
 }
-h3 {
+h1 {
   font-family: "Cantarell", sans-serif;
 }
 p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
-#htmlcontent {
+
+#htmlContent {
   display: flex;
   align-items: center;
   justify-items: center;
 }
-.htmltext {
+.htmlText {
   width: 70%;
 }
-.htmlimg{
-  width: 30%; 
-  margin-left: 5%; 
+.htmlImg {
+  width: 30%;
+  margin-left: 20%;
 }
-#htmllogo{
-  padding-top: 30px; 
-  height: 60%; 
-  width: 60%;
+#htmlLogo {
+  padding-top: 30px;
+  height: 100px;
+  width: 100px;
 }
-.htmlelements {
+.htmlElements {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+}
+#cssText {
+  width: 70%;
+}
+#cssContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#cssImg {
+  width: 30%;
+  margin-left: 20%;
+}
+#cssImg img {
+  padding-top: 30px;
+  height: 100px;
+  width: 100px;
+}
+#jsContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+#jsText {
+  width: 70%;
+}
+#jsImg {
+  width: 30%;
+  margin-left: 20%;
+}
+#jsImg img {
+  padding-top: 30px;
+  height: 100px;
+  width: 100px;
 }
 .content {
   width: 85vw;
@@ -89,4 +129,7 @@ label {
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
 }
-
+#results {
+  height: 100px;
+  margin: 15px;
+}
